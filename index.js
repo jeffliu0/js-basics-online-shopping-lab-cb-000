@@ -33,7 +33,7 @@ function viewCart() {
     }
     else{
       cartBag = cartBag + `${cart[i].itemName} at $` +
-      `${cart[i].itemPrice, `
+      `${cart[i].itemPrice}, `
     }
   }
 }
