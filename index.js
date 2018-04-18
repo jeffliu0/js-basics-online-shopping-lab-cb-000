@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ var newItem = {itemName: item[itemName], itemPrice: item[itemPrice]}
 }
 
 function viewCart() {
