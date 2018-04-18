@@ -28,7 +28,7 @@ function viewCart() {
   for(var i = 0; i < cart.length; i++)
   {
     if(i == cart.length - 1){
-      cartBag = cartBag + ` and ${cart[i].itemName} at $` +
+      cartBag = cartBag + `${cart[i].itemName} at $` +
       `${cart[i].itemPrice}.`
     }
     else{
