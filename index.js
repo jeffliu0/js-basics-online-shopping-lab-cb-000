@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var newItem = {itemName: item[itemName], itemPrice: item[itemPrice]}
+ var newItem = {itemName: item, itemPrice: Math.foor(Math.random(0,100))}
 }
 
 function viewCart() {
