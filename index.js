@@ -29,9 +29,8 @@ function viewCart() {
   {
     if(cart.length == 1)
       cartBag = cartBag + `${cart[i].itemName} at $` +
-      `${cart[i].itemPrice}.`
-      
-    if(i == cart.length - 1){
+      `${cart[i].itemPrice}.`  
+    else if(i == cart.length - 1){
       cartBag = cartBag + `${cart[i].itemName} at $` +
       `${cart[i].itemPrice}.`
     }
