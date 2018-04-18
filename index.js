@@ -28,10 +28,10 @@ function viewCart() {
   for(var i = 0; i < cart.length; i++)
   {
     if(i == cart.length - 1){
-      cart = cart + `${cart[i].itemName} at $\${cart[i].itemPrice}.`
+      cart = cart + `${cart[i].itemName} at $${cart[i].itemPrice}.`
     }
     else{
-      cart = cart + `${cart[i].itemName} at $\${cart[i].itemPrice}, `
+      cart = cart + `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
   }
 }
