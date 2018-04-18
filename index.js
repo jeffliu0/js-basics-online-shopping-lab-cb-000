@@ -19,6 +19,16 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var cart = "In your cart, you have "
+  for(var i =0; i < cart.length;i++)
+  {
+    if(i == cart.length - 1){
+      cart = cart + `${cart[i].itemName} at $\${cart[i].itemPrice}.`
+    }
+    else{
+      cart = cart + `${cart[i].itemName} at $\${cart[i].itemPrice}, `
+    }
+  }
 }
 
 function total() {
