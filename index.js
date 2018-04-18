@@ -55,6 +55,8 @@ function total() {
 function removeFromCart(item) {
   // write your code here
 
+  flag = true
+  
   for(var i = 0; i < cart.length; i++){
     if(cart[i].itemName == item){
       delete cart[i]
@@ -77,7 +79,7 @@ function placeOrder(cardNumber) {
   }
   else{
     cart = []
-    return `Your total cost is $` + 
+    return `Your total cost is $` +
     `${total()}, which will be charged to the card ${cardNumber}.`
   }
 }
