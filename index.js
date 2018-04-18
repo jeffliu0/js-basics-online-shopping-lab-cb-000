@@ -49,6 +49,7 @@ function total() {
   for(var i = 0; i < cart.length; i++){
     amt+=cart[i].itemPrice
   }
+  return amt
 }
 
 function removeFromCart(item) {
