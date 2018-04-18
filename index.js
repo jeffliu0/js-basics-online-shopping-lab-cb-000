@@ -25,7 +25,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
 
-  for(var i =0; i < cart.length;i++)
+  for(var i = 0; i < cart.length; i++)
   {
     if(i == cart.length - 1){
       cart = cart + `${cart[i].itemName} at $\${cart[i].itemPrice}.`
