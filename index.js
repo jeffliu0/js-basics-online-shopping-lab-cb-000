@@ -36,6 +36,8 @@ function viewCart() {
       `${cart[i].itemPrice}, `
     }
   }
+
+  return cartBag
 }
 
 function total() {
