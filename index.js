@@ -45,6 +45,10 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var amt = 0
+  for(var i = 0; i < cart.length; i++){
+    amt+=cart[i].itemPrice
+  }
 }
 
 function removeFromCart(item) {
