@@ -54,13 +54,17 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  var flag = true
+
   for(var i = 0; i < cart.length; i++){
     if(cart[i].itemName == item){
       delete cart[i]
+      flag = false
     }
-    else{
-      return "That item is not in your cart."
-    }
+  }
+
+  if(flag = true){
+    return "That items is not in your cart."
   }
 
   return cart
